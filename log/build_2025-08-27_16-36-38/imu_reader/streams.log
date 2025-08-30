@@ -1,0 +1,26 @@
+[0.020s] Invoking command in '/home/cat/ros_ws/build/imu_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(convert310) /usr/bin/cmake --build /home/cat/ros_ws/build/imu_reader -- -j8 -l8
+[0.264s] [35m[1mConsolidate compiler generated dependencies of target imu_reader[0m
+[0.362s] [ 50%] [32mBuilding CXX object CMakeFiles/imu_reader.dir/src/imu_reader.cpp.o[0m
+[10.267s] [100%] [32m[1mLinking CXX executable imu_reader[0m
+[10.862s] [100%] Built target imu_reader
+[10.881s] Invoked command in '/home/cat/ros_ws/build/imu_reader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(convert310) /usr/bin/cmake --build /home/cat/ros_ws/build/imu_reader -- -j8 -l8
+[10.904s] Invoking command in '/home/cat/ros_ws/build/imu_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(convert310) /usr/bin/cmake --install /home/cat/ros_ws/build/imu_reader
+[10.922s] -- Install configuration: ""
+[10.925s] -- Execute custom install script
+[10.926s] -- Up-to-date symlink: /home/cat/ros_ws/install/lib/imu_reader/imu_reader
+[10.927s] -- Up-to-date symlink: /home/cat/ros_ws/install/share/ament_index/resource_index/package_run_dependencies/imu_reader
+[10.928s] -- Up-to-date symlink: /home/cat/ros_ws/install/share/ament_index/resource_index/parent_prefix_path/imu_reader
+[10.928s] -- Up-to-date symlink: /home/cat/ros_ws/install/share/imu_reader/environment/ament_prefix_path.sh
+[10.929s] -- Up-to-date symlink: /home/cat/ros_ws/install/share/imu_reader/environment/ament_prefix_path.dsv
+[10.931s] -- Up-to-date symlink: /home/cat/ros_ws/install/share/imu_reader/environment/path.sh
+[10.931s] -- Up-to-date symlink: /home/cat/ros_ws/install/share/imu_reader/environment/path.dsv
+[10.932s] -- Up-to-date symlink: /home/cat/ros_ws/install/share/imu_reader/local_setup.bash
+[10.932s] -- Up-to-date symlink: /home/cat/ros_ws/install/share/imu_reader/local_setup.sh
+[10.933s] -- Up-to-date symlink: /home/cat/ros_ws/install/share/imu_reader/local_setup.zsh
+[10.935s] -- Up-to-date symlink: /home/cat/ros_ws/install/share/imu_reader/local_setup.dsv
+[10.935s] -- Symlinking: /home/cat/ros_ws/install/share/imu_reader/package.dsv
+[10.951s] -- Up-to-date symlink: /home/cat/ros_ws/install/share/ament_index/resource_index/packages/imu_reader
+[10.951s] -- Up-to-date symlink: /home/cat/ros_ws/install/share/imu_reader/cmake/imu_readerConfig.cmake
+[10.953s] -- Up-to-date symlink: /home/cat/ros_ws/install/share/imu_reader/cmake/imu_readerConfig-version.cmake
+[10.953s] -- Up-to-date symlink: /home/cat/ros_ws/install/share/imu_reader/package.xml
+[10.958s] Invoked command in '/home/cat/ros_ws/build/imu_reader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(convert310) /usr/bin/cmake --install /home/cat/ros_ws/build/imu_reader

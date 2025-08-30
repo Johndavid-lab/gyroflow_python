@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+exec python -m rknn_pool_yolo.rknn_detector_node "$@"

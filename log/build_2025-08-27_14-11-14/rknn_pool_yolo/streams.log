@@ -1,0 +1,17 @@
+[0.896s] Invoking command in '/home/cat/ros_ws/build/rknn_pool_yolo': CONDA_PROMPT_MODIFIER=(convert310) PYTHONPATH=/home/cat/ros_ws/build/rknn_pool_yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cat/ros_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/cat/ros_ws/build/rknn_pool_yolo/build --no-deps symlink_data
+[1.216s] running develop
+[1.385s] running egg_info
+[1.385s] writing rknn_pool_yolo.egg-info/PKG-INFO
+[1.385s] writing dependency_links to rknn_pool_yolo.egg-info/dependency_links.txt
+[1.385s] writing entry points to rknn_pool_yolo.egg-info/entry_points.txt
+[1.386s] writing requirements to rknn_pool_yolo.egg-info/requires.txt
+[1.386s] writing top-level names to rknn_pool_yolo.egg-info/top_level.txt
+[1.390s] reading manifest file 'rknn_pool_yolo.egg-info/SOURCES.txt'
+[1.391s] writing manifest file 'rknn_pool_yolo.egg-info/SOURCES.txt'
+[1.394s] running build_ext
+[1.394s] Creating /home/cat/ros_ws/install/lib/python3.10/site-packages/rknn-pool-yolo.egg-link (link to .)
+[1.396s] Installing rknn_detector script to /home/cat/ros_ws/install/bin
+[1.397s] 
+[1.397s] Installed /home/cat/ros_ws/build/rknn_pool_yolo
+[1.397s] running symlink_data
+[1.495s] Invoked command in '/home/cat/ros_ws/build/rknn_pool_yolo' returned '0': CONDA_PROMPT_MODIFIER=(convert310) PYTHONPATH=/home/cat/ros_ws/build/rknn_pool_yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cat/ros_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/cat/ros_ws/build/rknn_pool_yolo/build --no-deps symlink_data

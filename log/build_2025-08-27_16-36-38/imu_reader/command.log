@@ -1,0 +1,4 @@
+Invoking command in '/home/cat/ros_ws/build/imu_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(convert310) /usr/bin/cmake --build /home/cat/ros_ws/build/imu_reader -- -j8 -l8
+Invoked command in '/home/cat/ros_ws/build/imu_reader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(convert310) /usr/bin/cmake --build /home/cat/ros_ws/build/imu_reader -- -j8 -l8
+Invoking command in '/home/cat/ros_ws/build/imu_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(convert310) /usr/bin/cmake --install /home/cat/ros_ws/build/imu_reader
+Invoked command in '/home/cat/ros_ws/build/imu_reader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(convert310) /usr/bin/cmake --install /home/cat/ros_ws/build/imu_reader

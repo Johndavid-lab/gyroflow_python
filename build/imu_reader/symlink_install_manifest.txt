@@ -1,0 +1,16 @@
+/home/cat/ros_ws/install/lib/imu_reader/imu_reader
+/home/cat/ros_ws/install/share/ament_index/resource_index/package_run_dependencies/imu_reader
+/home/cat/ros_ws/install/share/ament_index/resource_index/parent_prefix_path/imu_reader
+/home/cat/ros_ws/install/share/imu_reader/environment/ament_prefix_path.sh
+/home/cat/ros_ws/install/share/imu_reader/environment/ament_prefix_path.dsv
+/home/cat/ros_ws/install/share/imu_reader/environment/path.sh
+/home/cat/ros_ws/install/share/imu_reader/environment/path.dsv
+/home/cat/ros_ws/install/share/imu_reader/local_setup.bash
+/home/cat/ros_ws/install/share/imu_reader/local_setup.sh
+/home/cat/ros_ws/install/share/imu_reader/local_setup.zsh
+/home/cat/ros_ws/install/share/imu_reader/local_setup.dsv
+/home/cat/ros_ws/install/share/imu_reader/package.dsv
+/home/cat/ros_ws/install/share/ament_index/resource_index/packages/imu_reader
+/home/cat/ros_ws/install/share/imu_reader/cmake/imu_readerConfig.cmake
+/home/cat/ros_ws/install/share/imu_reader/cmake/imu_readerConfig-version.cmake
+/home/cat/ros_ws/install/share/imu_reader/package.xml

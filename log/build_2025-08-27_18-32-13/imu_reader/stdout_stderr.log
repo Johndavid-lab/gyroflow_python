@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target imu_reader[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/imu_reader.dir/src/imu_reader.cpp.o[0m
+[100%] [32m[1mLinking CXX executable imu_reader[0m
+[100%] Built target imu_reader
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/cat/ros_ws/install/lib/imu_reader/imu_reader
+-- Up-to-date symlink: /home/cat/ros_ws/install/share/ament_index/resource_index/package_run_dependencies/imu_reader
+-- Up-to-date symlink: /home/cat/ros_ws/install/share/ament_index/resource_index/parent_prefix_path/imu_reader
+-- Up-to-date symlink: /home/cat/ros_ws/install/share/imu_reader/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/cat/ros_ws/install/share/imu_reader/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/cat/ros_ws/install/share/imu_reader/environment/path.sh
+-- Up-to-date symlink: /home/cat/ros_ws/install/share/imu_reader/environment/path.dsv
+-- Up-to-date symlink: /home/cat/ros_ws/install/share/imu_reader/local_setup.bash
+-- Up-to-date symlink: /home/cat/ros_ws/install/share/imu_reader/local_setup.sh
+-- Up-to-date symlink: /home/cat/ros_ws/install/share/imu_reader/local_setup.zsh
+-- Up-to-date symlink: /home/cat/ros_ws/install/share/imu_reader/local_setup.dsv
+-- Symlinking: /home/cat/ros_ws/install/share/imu_reader/package.dsv
+-- Up-to-date symlink: /home/cat/ros_ws/install/share/ament_index/resource_index/packages/imu_reader
+-- Up-to-date symlink: /home/cat/ros_ws/install/share/imu_reader/cmake/imu_readerConfig.cmake
+-- Up-to-date symlink: /home/cat/ros_ws/install/share/imu_reader/cmake/imu_readerConfig-version.cmake
+-- Up-to-date symlink: /home/cat/ros_ws/install/share/imu_reader/package.xml

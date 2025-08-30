@@ -1,0 +1,40 @@
+[0.020s] Invoking command in '/home/cat/ros_ws/build/imu_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(convert310) /usr/bin/cmake --build /home/cat/ros_ws/build/imu_reader -- -j8 -l8
+[0.074s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.339s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.368s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.418s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.421s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.430s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.445s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.463s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.509s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.510s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.660s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.738s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.995s] -- Configuring done
+[1.011s] -- Generating done
+[1.017s] -- Build files have been written to: /home/cat/ros_ws/build/imu_reader
+[1.107s] [ 50%] [32mBuilding CXX object CMakeFiles/imu_reader.dir/src/imu_reader.cpp.o[0m
+[9.306s] [100%] [32m[1mLinking CXX executable imu_reader[0m
+[9.687s] [100%] Built target imu_reader
+[9.720s] Invoked command in '/home/cat/ros_ws/build/imu_reader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(convert310) /usr/bin/cmake --build /home/cat/ros_ws/build/imu_reader -- -j8 -l8
+[9.742s] Invoking command in '/home/cat/ros_ws/build/imu_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(convert310) /usr/bin/cmake --install /home/cat/ros_ws/build/imu_reader
+[9.754s] -- Install configuration: ""
+[9.755s] -- Execute custom install script
+[9.755s] -- Symlinking: /home/cat/ros_ws/install/lib/imu_reader/imu_reader
+[9.786s] -- Symlinking: /home/cat/ros_ws/install/share/ament_index/resource_index/package_run_dependencies/imu_reader
+[9.816s] -- Symlinking: /home/cat/ros_ws/install/share/ament_index/resource_index/parent_prefix_path/imu_reader
+[9.846s] -- Symlinking: /home/cat/ros_ws/install/share/imu_reader/environment/ament_prefix_path.sh
+[9.876s] -- Symlinking: /home/cat/ros_ws/install/share/imu_reader/environment/ament_prefix_path.dsv
+[9.906s] -- Symlinking: /home/cat/ros_ws/install/share/imu_reader/environment/path.sh
+[9.936s] -- Symlinking: /home/cat/ros_ws/install/share/imu_reader/environment/path.dsv
+[9.965s] -- Symlinking: /home/cat/ros_ws/install/share/imu_reader/local_setup.bash
+[9.996s] -- Symlinking: /home/cat/ros_ws/install/share/imu_reader/local_setup.sh
+[10.026s] -- Symlinking: /home/cat/ros_ws/install/share/imu_reader/local_setup.zsh
+[10.056s] -- Symlinking: /home/cat/ros_ws/install/share/imu_reader/local_setup.dsv
+[10.086s] -- Symlinking: /home/cat/ros_ws/install/share/imu_reader/package.dsv
+[10.116s] -- Symlinking: /home/cat/ros_ws/install/share/ament_index/resource_index/packages/imu_reader
+[10.147s] -- Symlinking: /home/cat/ros_ws/install/share/imu_reader/cmake/imu_readerConfig.cmake
+[10.177s] -- Symlinking: /home/cat/ros_ws/install/share/imu_reader/cmake/imu_readerConfig-version.cmake
+[10.207s] -- Symlinking: /home/cat/ros_ws/install/share/imu_reader/package.xml
+[10.241s] Invoked command in '/home/cat/ros_ws/build/imu_reader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(convert310) /usr/bin/cmake --install /home/cat/ros_ws/build/imu_reader

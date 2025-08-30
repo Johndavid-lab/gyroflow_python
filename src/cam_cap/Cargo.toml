@@ -1,0 +1,11 @@
+[package]
+name = "cam_cap"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+opencv = { version = "0.92", default-features = false, features = ["clang-runtime","highgui","imgcodecs","imgproc","videoio"] }
+r2r = "0.9"
+anyhow = "1"
+v4l = "0.14"
+

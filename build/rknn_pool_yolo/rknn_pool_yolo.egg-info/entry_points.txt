@@ -1,0 +1,3 @@
+[console_scripts]
+rknn_detector = rknn_pool_yolo.rknn_detector_node:main
+

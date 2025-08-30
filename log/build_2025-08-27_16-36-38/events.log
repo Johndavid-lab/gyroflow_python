@@ -1,0 +1,144 @@
+[0.000000] (-) TimerEvent: {}
+[0.002321] (-) JobUnselected: {'identifier': 'rknn_pool_yolo'}
+[0.003171] (imu_reader) JobQueued: {'identifier': 'imu_reader', 'dependencies': OrderedDict()}
+[0.003843] (imu_reader) JobStarted: {'identifier': 'imu_reader'}
+[0.017124] (imu_reader) JobProgress: {'identifier': 'imu_reader', 'progress': 'cmake'}
+[0.019805] (imu_reader) JobProgress: {'identifier': 'imu_reader', 'progress': 'build'}
+[0.022730] (imu_reader) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cat/ros_ws/build/imu_reader', '--', '-j8', '-l8'], 'cwd': '/home/cat/ros_ws/build/imu_reader', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(convert310)'), ('USER', 'cat'), ('SSH_CLIENT', '192.168.10.247 64277 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/cat/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/cat/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/cat'), ('MUTTER_DEBUG_ENABLE_ATOMIC_KMS', '0'), ('CONDA_SHLVL', '3'), ('OLDPWD', '/home/cat/ros_ws/src'), ('TERM_PROGRAM_VERSION', '1.103.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ce1259a2-9598-4d04-bc64-e9ace14b53a1.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/cat/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/cat/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/cat/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/cat/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/cat/miniforge3/envs/convert310/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/cat/ros_ws/install/bin:/home/cat/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli:/usr/local/sbin:/usr/sbin:/sbin:/opt/ros/humble/bin:/home/cat/miniforge3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/cat/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts:/home/cat/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MAMBA_ROOT_PREFIX', '/home/cat/miniforge3'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/cat/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-21e8a69aabacc007.txt'), ('LANG', 'zh_CN.UTF-8'), ('CONDA_PREFIX_1', '/home/cat/miniforge3/envs/convert310'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-10aaa9c692.sock'), ('CONDA_PREFIX_2', '/home/cat/miniforge3/envs/convert'), ('TERM_PROGRAM', 'vscode'), ('XML_CATALOG_FILES', 'file:///home/cat/miniforge3/envs/convert310/etc/xml/catalog file:///etc/xml/catalog'), ('GSETTINGS_SCHEMA_DIR', '/home/cat/miniforge3/envs/convert310/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/cat/ros_ws/install:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/cat/miniforge3/bin/python'), ('SHELL', '/bin/bash'), ('CLUTTER_PAINT', 'disable-dynamic-max-render-time'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'convert310'), ('MAMBA_EXE', '/home/cat/miniforge3/bin/mamba'), ('MUTTER_DEBUG_FORCE_KMS_MODE', 'simple'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/cat/ros_ws/build/imu_reader'), ('CONDA_EXE', '/home/cat/miniforge3/bin/conda'), ('SSH_CONNECTION', '192.168.10.247 64277 192.168.1.81 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cat/ros_ws/install/lib/python3.10/site-packages:/home/cat/ros_ws/build/rknn_pool_yolo:/home/cat/ros_ws/install/lib/python3.11/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/cat/miniforge3/envs/convert310'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/cat/ros_ws/install:/opt/ros/humble')]), 'shell': False}
+[0.100276] (-) TimerEvent: {}
+[0.200704] (-) TimerEvent: {}
+[0.267388] (imu_reader) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target imu_reader\x1b[0m\n'}
+[0.300893] (-) TimerEvent: {}
+[0.365707] (imu_reader) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/imu_reader.dir/src/imu_reader.cpp.o\x1b[0m\n'}
+[0.400946] (-) TimerEvent: {}
+[0.501350] (-) TimerEvent: {}
+[0.601783] (-) TimerEvent: {}
+[0.702206] (-) TimerEvent: {}
+[0.802617] (-) TimerEvent: {}
+[0.903035] (-) TimerEvent: {}
+[1.003472] (-) TimerEvent: {}
+[1.103914] (-) TimerEvent: {}
+[1.204353] (-) TimerEvent: {}
+[1.304769] (-) TimerEvent: {}
+[1.405267] (-) TimerEvent: {}
+[1.505839] (-) TimerEvent: {}
+[1.606242] (-) TimerEvent: {}
+[1.706651] (-) TimerEvent: {}
+[1.807056] (-) TimerEvent: {}
+[1.907461] (-) TimerEvent: {}
+[2.007890] (-) TimerEvent: {}
+[2.108299] (-) TimerEvent: {}
+[2.208690] (-) TimerEvent: {}
+[2.309126] (-) TimerEvent: {}
+[2.409575] (-) TimerEvent: {}
+[2.510151] (-) TimerEvent: {}
+[2.610923] (-) TimerEvent: {}
+[2.711349] (-) TimerEvent: {}
+[2.811769] (-) TimerEvent: {}
+[2.912194] (-) TimerEvent: {}
+[3.012636] (-) TimerEvent: {}
+[3.113072] (-) TimerEvent: {}
+[3.213687] (-) TimerEvent: {}
+[3.314608] (-) TimerEvent: {}
+[3.415552] (-) TimerEvent: {}
+[3.516473] (-) TimerEvent: {}
+[3.617349] (-) TimerEvent: {}
+[3.718210] (-) TimerEvent: {}
+[3.818642] (-) TimerEvent: {}
+[3.919162] (-) TimerEvent: {}
+[4.019948] (-) TimerEvent: {}
+[4.120375] (-) TimerEvent: {}
+[4.220804] (-) TimerEvent: {}
+[4.321338] (-) TimerEvent: {}
+[4.422164] (-) TimerEvent: {}
+[4.522918] (-) TimerEvent: {}
+[4.623438] (-) TimerEvent: {}
+[4.724352] (-) TimerEvent: {}
+[4.825248] (-) TimerEvent: {}
+[4.926165] (-) TimerEvent: {}
+[5.027017] (-) TimerEvent: {}
+[5.127885] (-) TimerEvent: {}
+[5.228296] (-) TimerEvent: {}
+[5.328721] (-) TimerEvent: {}
+[5.429167] (-) TimerEvent: {}
+[5.529761] (-) TimerEvent: {}
+[5.630697] (-) TimerEvent: {}
+[5.731650] (-) TimerEvent: {}
+[5.832592] (-) TimerEvent: {}
+[5.933382] (-) TimerEvent: {}
+[6.033834] (-) TimerEvent: {}
+[6.134292] (-) TimerEvent: {}
+[6.234853] (-) TimerEvent: {}
+[6.335683] (-) TimerEvent: {}
+[6.436222] (-) TimerEvent: {}
+[6.537132] (-) TimerEvent: {}
+[6.638020] (-) TimerEvent: {}
+[6.738427] (-) TimerEvent: {}
+[6.838861] (-) TimerEvent: {}
+[6.939294] (-) TimerEvent: {}
+[7.039699] (-) TimerEvent: {}
+[7.140109] (-) TimerEvent: {}
+[7.240545] (-) TimerEvent: {}
+[7.341059] (-) TimerEvent: {}
+[7.441913] (-) TimerEvent: {}
+[7.542828] (-) TimerEvent: {}
+[7.643798] (-) TimerEvent: {}
+[7.744678] (-) TimerEvent: {}
+[7.845563] (-) TimerEvent: {}
+[7.946369] (-) TimerEvent: {}
+[8.047278] (-) TimerEvent: {}
+[8.148061] (-) TimerEvent: {}
+[8.248488] (-) TimerEvent: {}
+[8.348934] (-) TimerEvent: {}
+[8.449484] (-) TimerEvent: {}
+[8.550482] (-) TimerEvent: {}
+[8.651792] (-) TimerEvent: {}
+[8.752887] (-) TimerEvent: {}
+[8.853969] (-) TimerEvent: {}
+[8.954968] (-) TimerEvent: {}
+[9.055859] (-) TimerEvent: {}
+[9.156810] (-) TimerEvent: {}
+[9.257624] (-) TimerEvent: {}
+[9.358135] (-) TimerEvent: {}
+[9.459009] (-) TimerEvent: {}
+[9.559452] (-) TimerEvent: {}
+[9.659879] (-) TimerEvent: {}
+[9.760449] (-) TimerEvent: {}
+[9.861403] (-) TimerEvent: {}
+[9.961855] (-) TimerEvent: {}
+[10.062389] (-) TimerEvent: {}
+[10.163301] (-) TimerEvent: {}
+[10.264385] (-) TimerEvent: {}
+[10.269985] (imu_reader) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable imu_reader\x1b[0m\n'}
+[10.364583] (-) TimerEvent: {}
+[10.465575] (-) TimerEvent: {}
+[10.566631] (-) TimerEvent: {}
+[10.667690] (-) TimerEvent: {}
+[10.768228] (-) TimerEvent: {}
+[10.865194] (imu_reader) StdoutLine: {'line': b'[100%] Built target imu_reader\n'}
+[10.868337] (-) TimerEvent: {}
+[10.884221] (imu_reader) CommandEnded: {'returncode': 0}
+[10.887448] (imu_reader) JobProgress: {'identifier': 'imu_reader', 'progress': 'install'}
+[10.906761] (imu_reader) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cat/ros_ws/build/imu_reader'], 'cwd': '/home/cat/ros_ws/build/imu_reader', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(convert310)'), ('USER', 'cat'), ('SSH_CLIENT', '192.168.10.247 64277 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/cat/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/cat/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/cat'), ('MUTTER_DEBUG_ENABLE_ATOMIC_KMS', '0'), ('CONDA_SHLVL', '3'), ('OLDPWD', '/home/cat/ros_ws/src'), ('TERM_PROGRAM_VERSION', '1.103.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ce1259a2-9598-4d04-bc64-e9ace14b53a1.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/cat/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/cat/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/cat/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/cat/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/cat/miniforge3/envs/convert310/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/cat/ros_ws/install/bin:/home/cat/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli:/usr/local/sbin:/usr/sbin:/sbin:/opt/ros/humble/bin:/home/cat/miniforge3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/cat/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts:/home/cat/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MAMBA_ROOT_PREFIX', '/home/cat/miniforge3'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/cat/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-21e8a69aabacc007.txt'), ('LANG', 'zh_CN.UTF-8'), ('CONDA_PREFIX_1', '/home/cat/miniforge3/envs/convert310'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-10aaa9c692.sock'), ('CONDA_PREFIX_2', '/home/cat/miniforge3/envs/convert'), ('TERM_PROGRAM', 'vscode'), ('XML_CATALOG_FILES', 'file:///home/cat/miniforge3/envs/convert310/etc/xml/catalog file:///etc/xml/catalog'), ('GSETTINGS_SCHEMA_DIR', '/home/cat/miniforge3/envs/convert310/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/cat/ros_ws/install:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/cat/miniforge3/bin/python'), ('SHELL', '/bin/bash'), ('CLUTTER_PAINT', 'disable-dynamic-max-render-time'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'convert310'), ('MAMBA_EXE', '/home/cat/miniforge3/bin/mamba'), ('MUTTER_DEBUG_FORCE_KMS_MODE', 'simple'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/cat/ros_ws/build/imu_reader'), ('CONDA_EXE', '/home/cat/miniforge3/bin/conda'), ('SSH_CONNECTION', '192.168.10.247 64277 192.168.1.81 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cat/ros_ws/install/lib/python3.10/site-packages:/home/cat/ros_ws/build/rknn_pool_yolo:/home/cat/ros_ws/install/lib/python3.11/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/cat/miniforge3/envs/convert310'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/cat/ros_ws/install:/opt/ros/humble')]), 'shell': False}
+[10.925669] (imu_reader) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.928640] (imu_reader) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.929984] (imu_reader) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/ros_ws/install/lib/imu_reader/imu_reader\n'}
+[10.931115] (imu_reader) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/ros_ws/install/share/ament_index/resource_index/package_run_dependencies/imu_reader\n'}
+[10.931392] (imu_reader) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/ros_ws/install/share/ament_index/resource_index/parent_prefix_path/imu_reader\n'}
+[10.931595] (imu_reader) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/ros_ws/install/share/imu_reader/environment/ament_prefix_path.sh\n'}
+[10.932477] (imu_reader) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/ros_ws/install/share/imu_reader/environment/ament_prefix_path.dsv\n'}
+[10.933871] (imu_reader) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/ros_ws/install/share/imu_reader/environment/path.sh\n'}
+[10.934706] (imu_reader) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/ros_ws/install/share/imu_reader/environment/path.dsv\n'}
+[10.935428] (imu_reader) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/ros_ws/install/share/imu_reader/local_setup.bash\n'}
+[10.936051] (imu_reader) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/ros_ws/install/share/imu_reader/local_setup.sh\n'}
+[10.936965] (imu_reader) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/ros_ws/install/share/imu_reader/local_setup.zsh\n'}
+[10.937978] (imu_reader) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/ros_ws/install/share/imu_reader/local_setup.dsv\n'}
+[10.938640] (imu_reader) StdoutLine: {'line': b'-- Symlinking: /home/cat/ros_ws/install/share/imu_reader/package.dsv\n'}
+[10.954636] (imu_reader) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/ros_ws/install/share/ament_index/resource_index/packages/imu_reader\n'}
+[10.955165] (imu_reader) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/ros_ws/install/share/imu_reader/cmake/imu_readerConfig.cmake\n'}
+[10.956003] (imu_reader) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/ros_ws/install/share/imu_reader/cmake/imu_readerConfig-version.cmake\n'}
+[10.956862] (imu_reader) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/ros_ws/install/share/imu_reader/package.xml\n'}
+[10.961487] (imu_reader) CommandEnded: {'returncode': 0}
+[10.968642] (-) TimerEvent: {}
+[11.034515] (imu_reader) JobEnded: {'identifier': 'imu_reader', 'rc': 0}
+[11.035743] (-) EventReactorShutdown: {}

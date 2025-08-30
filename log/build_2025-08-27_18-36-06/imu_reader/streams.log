@@ -1,0 +1,11 @@
+[0.028s] Invoking command in '/home/cat/ros_ws/build/imu_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(convert310) /usr/bin/cmake --build /home/cat/ros_ws/build/imu_reader -- -j8 -l8
+[0.198s] [35m[1mConsolidate compiler generated dependencies of target imu_reader[0m
+[0.261s] [ 50%] [32mBuilding CXX object CMakeFiles/imu_reader.dir/src/imu_reader.cpp.o[0m
+[4.716s] [01m[K/home/cat/ros_ws/src/imu_reader/src/imu_reader.cpp:[m[K In constructor ‘[01m[KImuReader::ImuReader()[m[K’:
+[4.717s] [01m[K/home/cat/ros_ws/src/imu_reader/src/imu_reader.cpp:77:7:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+[4.718s]    77 |       [01;31m[K5ms[m[K,
+[4.718s]       |       [01;31m[K^~~[m[K
+[6.292s] gmake[2]: *** [CMakeFiles/imu_reader.dir/build.make:76：CMakeFiles/imu_reader.dir/src/imu_reader.cpp.o] 错误 1
+[6.294s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/imu_reader.dir/all] 错误 2
+[6.294s] gmake: *** [Makefile:146：all] 错误 2
+[6.299s] Invoked command in '/home/cat/ros_ws/build/imu_reader' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(convert310) /usr/bin/cmake --build /home/cat/ros_ws/build/imu_reader -- -j8 -l8

@@ -1,0 +1,10 @@
+/home/cat/ros_ws/build/imu_reader/CMakeFiles/uninstall.dir
+/home/cat/ros_ws/build/imu_reader/CMakeFiles/imu_reader_uninstall.dir
+/home/cat/ros_ws/build/imu_reader/CMakeFiles/imu_reader.dir
+/home/cat/ros_ws/build/imu_reader/CMakeFiles/test.dir
+/home/cat/ros_ws/build/imu_reader/CMakeFiles/edit_cache.dir
+/home/cat/ros_ws/build/imu_reader/CMakeFiles/rebuild_cache.dir
+/home/cat/ros_ws/build/imu_reader/CMakeFiles/list_install_components.dir
+/home/cat/ros_ws/build/imu_reader/CMakeFiles/install.dir
+/home/cat/ros_ws/build/imu_reader/CMakeFiles/install/local.dir
+/home/cat/ros_ws/build/imu_reader/CMakeFiles/install/strip.dir

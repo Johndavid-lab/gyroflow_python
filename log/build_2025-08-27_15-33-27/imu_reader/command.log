@@ -1,0 +1,2 @@
+Invoking command in '/home/cat/ros_ws/build/imu_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(convert) /usr/bin/cmake /home/cat/ros_ws/src/imu_reader -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cat/ros_ws/install
+Invoked command in '/home/cat/ros_ws/build/imu_reader' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(convert) /usr/bin/cmake /home/cat/ros_ws/src/imu_reader -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cat/ros_ws/install

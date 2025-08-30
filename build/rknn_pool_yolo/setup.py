@@ -1,0 +1,1 @@
+/home/cat/ros_ws/src/rknn_pool_yolo/setup.py

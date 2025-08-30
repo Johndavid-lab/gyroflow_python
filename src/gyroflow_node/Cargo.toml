@@ -1,0 +1,9 @@
+[dependencies]
+anyhow = "1"
+r2r = "0.9"
+opencv = { version = "0.92", default-features = false, features = ["clang-runtime","imgproc","imgcodecs","highgui","videoio"] }
+nalgebra = "0.32"
+parking_lot = "0.12"
+
+
+gyroflow-core = { path = "vendor/gyroflow/src/core" }
